@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ToDoListList {
+    +toDoLists : ArrayList<ToDoList>
+    +fileName : String
+    +addList()
+    +deleteList(ToDoList list)
+    +changeListName(ToDoList list)
+    +loadList()
+    +saveList(ToDoList list)
+}
+
+@enduml

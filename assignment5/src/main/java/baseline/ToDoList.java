@@ -18,8 +18,7 @@ public class ToDoList {
     }
 
     //add item from toDoItems
-    public String addItem(ToDoItem newItem) {
-        return null;
+    public void addItem(ToDoItem Item) {
     }
 
     //display list in GUI

@@ -21,6 +21,11 @@ public class ToDoItem {
         return null;
     }
 
+    //return this.completed
+    public boolean isCompleted(){
+        return false;
+    }
+
     //gets input from the GUI
     //validates input sets variables
     //completed is false

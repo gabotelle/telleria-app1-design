@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ToDoItem {
+    +name : String
+    +description : String
+    +date : String
+    +completed : boolean
+    +getName() : String
+    +getDescription() : String
+    +getDate() : String
+    +isComplete() : boolean
+    +createItem()
+    +setDescription()
+    +setDate()
+    +setCompleted()
+}
+
+
+@enduml
